@@ -29,138 +29,162 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textCimento = new System.Windows.Forms.TextBox();
+            this.textCal = new System.Windows.Forms.TextBox();
+            this.textAreia = new System.Windows.Forms.TextBox();
+            this.textPedra = new System.Windows.Forms.TextBox();
+            this.textCano = new System.Windows.Forms.TextBox();
+            this.textTorneira = new System.Windows.Forms.TextBox();
+            this.textPrego = new System.Windows.Forms.TextBox();
+            this.textMartelo = new System.Windows.Forms.TextBox();
+            this.textPa = new System.Windows.Forms.TextBox();
+            this.textCarrinho = new System.Windows.Forms.TextBox();
+            this.textOp = new System.Windows.Forms.TextBox();
+            this.textDescOp = new System.Windows.Forms.TextBox();
+            this.textValorOp = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textCimento
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(87, 156);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(30, 19);
-            this.textBox1.TabIndex = 0;
+            this.textCimento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textCimento.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textCimento.Location = new System.Drawing.Point(87, 156);
+            this.textCimento.Name = "textCimento";
+            this.textCimento.Size = new System.Drawing.Size(30, 19);
+            this.textCimento.TabIndex = 0;
+            this.textCimento.Text = "0";
+            this.textCimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textCimento.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // textCal
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(87, 203);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(30, 19);
-            this.textBox2.TabIndex = 1;
+            this.textCal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textCal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textCal.Location = new System.Drawing.Point(87, 203);
+            this.textCal.Name = "textCal";
+            this.textCal.Size = new System.Drawing.Size(30, 19);
+            this.textCal.TabIndex = 1;
+            this.textCal.Text = "0";
+            this.textCal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // textAreia
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(88, 249);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(30, 19);
-            this.textBox3.TabIndex = 2;
+            this.textAreia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textAreia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textAreia.Location = new System.Drawing.Point(88, 249);
+            this.textAreia.Name = "textAreia";
+            this.textAreia.Size = new System.Drawing.Size(30, 19);
+            this.textAreia.TabIndex = 2;
+            this.textAreia.Text = "0";
+            this.textAreia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // textPedra
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(88, 294);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(30, 19);
-            this.textBox4.TabIndex = 3;
+            this.textPedra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textPedra.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textPedra.Location = new System.Drawing.Point(88, 294);
+            this.textPedra.Name = "textPedra";
+            this.textPedra.Size = new System.Drawing.Size(30, 19);
+            this.textPedra.TabIndex = 3;
+            this.textPedra.Text = "0";
+            this.textPedra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // textCano
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Location = new System.Drawing.Point(88, 340);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(30, 19);
-            this.textBox5.TabIndex = 4;
+            this.textCano.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textCano.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textCano.Location = new System.Drawing.Point(88, 340);
+            this.textCano.Name = "textCano";
+            this.textCano.Size = new System.Drawing.Size(30, 19);
+            this.textCano.TabIndex = 4;
+            this.textCano.Text = "0";
+            this.textCano.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox6
+            // textTorneira
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Location = new System.Drawing.Point(88, 389);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(30, 19);
-            this.textBox6.TabIndex = 5;
+            this.textTorneira.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textTorneira.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textTorneira.Location = new System.Drawing.Point(88, 389);
+            this.textTorneira.Name = "textTorneira";
+            this.textTorneira.Size = new System.Drawing.Size(30, 19);
+            this.textTorneira.TabIndex = 5;
+            this.textTorneira.Text = "0";
+            this.textTorneira.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox7
+            // textPrego
             // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Location = new System.Drawing.Point(88, 437);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(30, 19);
-            this.textBox7.TabIndex = 6;
+            this.textPrego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textPrego.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textPrego.Location = new System.Drawing.Point(88, 437);
+            this.textPrego.Name = "textPrego";
+            this.textPrego.Size = new System.Drawing.Size(30, 19);
+            this.textPrego.TabIndex = 6;
+            this.textPrego.Text = "0";
+            this.textPrego.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox8
+            // textMartelo
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Location = new System.Drawing.Point(88, 485);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(30, 19);
-            this.textBox8.TabIndex = 7;
+            this.textMartelo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textMartelo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textMartelo.Location = new System.Drawing.Point(88, 485);
+            this.textMartelo.Name = "textMartelo";
+            this.textMartelo.Size = new System.Drawing.Size(30, 19);
+            this.textMartelo.TabIndex = 7;
+            this.textMartelo.Text = "0";
+            this.textMartelo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox9
+            // textPa
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Location = new System.Drawing.Point(88, 533);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(30, 19);
-            this.textBox9.TabIndex = 8;
+            this.textPa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textPa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textPa.Location = new System.Drawing.Point(88, 533);
+            this.textPa.Name = "textPa";
+            this.textPa.Size = new System.Drawing.Size(30, 19);
+            this.textPa.TabIndex = 8;
+            this.textPa.Text = "0";
+            this.textPa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox10
+            // textCarrinho
             // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Location = new System.Drawing.Point(88, 578);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(30, 19);
-            this.textBox10.TabIndex = 9;
+            this.textCarrinho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textCarrinho.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textCarrinho.Location = new System.Drawing.Point(88, 578);
+            this.textCarrinho.Name = "textCarrinho";
+            this.textCarrinho.Size = new System.Drawing.Size(30, 19);
+            this.textCarrinho.TabIndex = 9;
+            this.textCarrinho.Text = "0";
+            this.textCarrinho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox11
+            // textOp
             // 
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Location = new System.Drawing.Point(87, 626);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(30, 19);
-            this.textBox11.TabIndex = 10;
+            this.textOp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textOp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textOp.Location = new System.Drawing.Point(87, 626);
+            this.textOp.Name = "textOp";
+            this.textOp.Size = new System.Drawing.Size(30, 19);
+            this.textOp.TabIndex = 10;
+            this.textOp.Text = "0";
+            this.textOp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox12
+            // textDescOp
             // 
-            this.textBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Location = new System.Drawing.Point(178, 627);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(107, 19);
-            this.textBox12.TabIndex = 11;
+            this.textDescOp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textDescOp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textDescOp.Location = new System.Drawing.Point(178, 627);
+            this.textDescOp.Name = "textDescOp";
+            this.textDescOp.Size = new System.Drawing.Size(107, 19);
+            this.textDescOp.TabIndex = 11;
             // 
-            // textBox13
+            // textValorOp
             // 
-            this.textBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Location = new System.Drawing.Point(374, 628);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(61, 19);
-            this.textBox13.TabIndex = 12;
+            this.textValorOp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textValorOp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textValorOp.Location = new System.Drawing.Point(374, 628);
+            this.textValorOp.Name = "textValorOp";
+            this.textValorOp.Size = new System.Drawing.Size(61, 19);
+            this.textValorOp.TabIndex = 12;
             // 
             // label1
             // 
@@ -170,6 +194,18 @@
             this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 13;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.ForestGreen;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Location = new System.Drawing.Point(178, 687);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(151, 74);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Calcular Compras";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -177,20 +213,21 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(520, 1050);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textValorOp);
+            this.Controls.Add(this.textDescOp);
+            this.Controls.Add(this.textOp);
+            this.Controls.Add(this.textCarrinho);
+            this.Controls.Add(this.textPa);
+            this.Controls.Add(this.textMartelo);
+            this.Controls.Add(this.textPrego);
+            this.Controls.Add(this.textTorneira);
+            this.Controls.Add(this.textCano);
+            this.Controls.Add(this.textPedra);
+            this.Controls.Add(this.textAreia);
+            this.Controls.Add(this.textCal);
+            this.Controls.Add(this.textCimento);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form8";
@@ -202,19 +239,20 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textCimento;
+        private System.Windows.Forms.TextBox textCal;
+        private System.Windows.Forms.TextBox textAreia;
+        private System.Windows.Forms.TextBox textPedra;
+        private System.Windows.Forms.TextBox textCano;
+        private System.Windows.Forms.TextBox textTorneira;
+        private System.Windows.Forms.TextBox textPrego;
+        private System.Windows.Forms.TextBox textMartelo;
+        private System.Windows.Forms.TextBox textPa;
+        private System.Windows.Forms.TextBox textCarrinho;
+        private System.Windows.Forms.TextBox textOp;
+        private System.Windows.Forms.TextBox textDescOp;
+        private System.Windows.Forms.TextBox textValorOp;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
